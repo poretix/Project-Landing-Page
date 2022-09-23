@@ -137,7 +137,7 @@ button {
 
 .mini-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #3882f6;
     padding-left: 40px;
     padding-right: 40px;
@@ -145,21 +145,19 @@ button {
     padding-bottom: 20px;
     color: white;
     border-radius: 5px;
-}
-
-.sign-up {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 
 .signup-info {
     font-weight: bold;
 }
 
-.sign-up .buttons {
+.mini-container .buttons {
     border: 1px solid white;
     border-radius: 5px;
+    display: flex;
 }
 
 .footer {
