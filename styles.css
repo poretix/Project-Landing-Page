@@ -10,8 +10,8 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
     align-items: center;
 }
 
@@ -37,8 +37,8 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-bottom: 40px;
     padding-top: 40px;
     align-items: center;
@@ -74,6 +74,7 @@ button {
     border: 0px;
     background-color: #3882f6;
     color: white;
+    font-weight: bold;
 }
 
 
@@ -97,9 +98,75 @@ button {
     gap: 52px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 40px;
 }
 
 .info .subtext {
     color: #1F2937;
     font-size: 16px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.signup-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.signup-info {
+    font-weight: bold;
+}
+
+.sign-up .buttons {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
 }
