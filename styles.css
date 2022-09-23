@@ -72,4 +72,34 @@ button {
     height: 25px;
     border-radius: 5px;
     border: 0px;
+    background-color: #3882f6;
+    color: white;
+}
+
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info .subtext {
+    color: #1F2937;
+    font-size: 16px;
 }
